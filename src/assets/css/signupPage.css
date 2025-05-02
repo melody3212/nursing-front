@@ -1,0 +1,27 @@
+.signupHeader {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 29px;
+    padding-top: 94px;
+    text-align: center;
+
+
+}
+
+.SignComponent{
+    margin-left:43px;
+    margin-right:43px;
+
+}
+
+.signupForm-text{
+    font-size:14px;
+    
+}
+
+.SignupinputField{
+    width:100%;
+    height:40px;
+    box-sizing:border-box;
+
+}

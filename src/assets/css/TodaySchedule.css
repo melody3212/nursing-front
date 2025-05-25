@@ -1,6 +1,6 @@
 /* ✅ 오늘의 스케줄 카드 박스 */
 .schedule_today-box {
-  width: 280px;
+  width: 260px;
   height: 110px; /* 일정한 높이 */
   overflow: hidden;
   background-color: #d8ede4;
@@ -8,7 +8,7 @@
   cursor: pointer;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
-  margin: 5px;
+  margin: 5px 1px 5px 20px;
 }
 
 /* 호버 시 살짝 확대 */

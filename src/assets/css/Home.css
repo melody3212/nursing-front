@@ -42,7 +42,7 @@
 /*간병인, 유저 커뮤니티*/
 .match_com, .user_com{
     display: flex; 
-    margin: 5px; 
+    margin: 5px 15px; 
 }
 .com_img{
     width:50px;
@@ -56,10 +56,15 @@
 
 
 /*스케쥴관리, 재활운동기록, 인지행동치료*/
-.quick-links{
+.quick-links {
     display: flex;
     justify-content: center;
-}
+    gap: 5px;
+    max-width: 420px;       /* ✅ 전체 버튼 컨테이너 최대 너비 제한 */
+    margin: 0 auto;         /* ✅ 가운데 정렬 */
+
+  }
+  
 
 
 .calendar{

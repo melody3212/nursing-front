@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* 수평 스크롤 숨김 */
+}
+
+.container {
+  width: 390px;
+  aspect-ratio: 390 / 844;  /* 너비에 맞춰 높이 자동 계산 */
+  margin: 0 auto;           /* 가로 중앙 정렬 */
+  font-family: 'Noto Sans KR';
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    min-width: 390px;       /* 최소 너비 유지 */
+    height: 100vh;          /* 뷰포트 높이에 맞춤 */
+  }
+}

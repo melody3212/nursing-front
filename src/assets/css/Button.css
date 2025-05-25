@@ -21,7 +21,7 @@
   
   /* 🧵 커뮤니티 버튼 */
   .Button_community {
-    width: 310px;
+    width: 290px;
     height: 45px;
     border-radius: 10px;
     background-color: #CBE1D8;
@@ -29,7 +29,7 @@
     font-size: 15px;
     text-align: left;
     padding: 10px;
-    margin: 7px;
+    margin: 7px 10px 7px 7px;
     font-weight: bold;
     box-shadow: none;
     border-color: #CBE1D8;
@@ -87,7 +87,7 @@
     border: none;
     background: none;
     cursor: pointer;
-    margin: 20px;
+    margin: 10px;
   }
   
   .button-icon {
@@ -109,9 +109,9 @@
   
 /* 📅 스케쥴/운동기록/인지행동 버튼 */
 .Button_basic {
-    width: 130px;
+    width: 105px;
     height: 100px;
-    margin: 10px;
+    margin: 5px;
     padding: 10px;
     border: none;
     font-size: 14px;
@@ -161,7 +161,7 @@
   
   /* 운동추가하기 버튼*/
   .Button_exercise-make{
-    width: 100%;
+    width: 90%;
     height: 91px;
     margin: 10px;
     padding: 10px;

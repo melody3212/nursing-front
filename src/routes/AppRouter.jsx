@@ -84,6 +84,7 @@ const AppRouter = ({
         path="/exercise/:dateId"
         element={<ExerciseDetailPage exercises={exercises} />} // 📌 아직 없지만 구조 미리 세팅
       />
+      
     </Routes>
    
   );

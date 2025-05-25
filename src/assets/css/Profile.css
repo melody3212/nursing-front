@@ -4,7 +4,7 @@
     justify-content: space-between; /* 요소들을 양 끝으로 정렬 */
     width: 90%; /* 컨테이너 전체 너비 사용 */
     position: relative; /* 날짜를 절대 위치로 정렬할 준비 */
-    margin: 10px;
+    margin: 20px;
 }
 
 .Profile .profile-image{
